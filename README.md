@@ -35,7 +35,11 @@ in your config file add
     ],
 	
 to add an signature Font
+
 use yii\helpers\Url;
+
+<img src="<?=Url::to(['/signfont','font'=>'AlexBrush-Regular.ttf','message'=>'Your Signature Here!'])?>"/>
+
 
 $message   default 'Signature Font Message'
 $font  default = 'learning_curve_regular_ot_tt.ttf'
@@ -43,4 +47,4 @@ $image_width default 500
 $image_height default  30
 $font_folder = 'c:\fonts\\' path to your font. if windows make sure you have \\
 
-<img src="<?=Url::to(['/signfont','font'=>'AlexBrush-Regular.ttf','message'=>'Your Signature Here!'])?>"/>
+
