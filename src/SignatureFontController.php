@@ -1,6 +1,6 @@
 <?php
 
-namespace jberall\signaturedraw;
+namespace jberall\signaturefont;
 
 use Yii;
 use yii\web\Controller;
@@ -27,9 +27,9 @@ class SignatureFontController extends Controller
 
     /**
      * 
-	 in your view add:
-	 use yii\helpers\Url;
-	 <img src="<?=Url::to(['/signfont','font'=>'AlexBrush-Regular.ttf','message'=>'Your Signature Here!'])?>"/>
+	 *in your view add:
+	 * use yii\helpers\Url;
+	 * <img src="<?=Url::to(['/signfont','font'=>'AlexBrush-Regular.ttf','message'=>'Your Signature Here!'])?>"/>
 	 
      * @param string $message   default 'Signature Font Message'
      * @param string $font  default = 'learning_curve_regular_ot_tt.ttf'

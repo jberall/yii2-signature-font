@@ -1,8 +1,8 @@
 {
-    "name": "jberall/yii2-signature-draw",
-    "description": "Renders a Signature Pad using jSignature",
+    "name": "jberall/yii2-signature-font",
+    "description": "Renders an image using php GD",
     "type": "yii2-extension",
-    "keywords": ["yii2","extension"," jSignature"],
+    "keywords": ["yii2","extension"," signature","font"],
     "license": "MIT",
     "authors": [
         {
